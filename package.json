@@ -1,0 +1,32 @@
+{
+  "name": "opencode-usage-limits",
+  "version": "1.0.0",
+  "description": "Show OpenCode Go limits and Extra usage credit in the left sidebar.",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./gui-experimental": "./gui-experimental.cjs"
+  },
+  "files": [
+    "index.ts",
+    "gui-experimental.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "usage",
+    "limits",
+    "go"
+  ],
+  "homepage": "https://github.com/bl4we/opencode-usage-limits#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bl4we/opencode-usage-limits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bl4we/opencode-usage-limits/issues"
+  },
+  "license": "MIT"
+}
