@@ -1,5 +1,8 @@
 # OpenCode Usage Limits
 
+Скачать готовый архив и установщики:  
+https://github.com/bl4we/opencode-usage-limits/releases/latest
+
 Небольшой локальный GUI-плагин для **OpenCode Desktop**. Показывает в нижней части левой панели (вертикальные вкладки):
 
 - лимиты OpenCode Go: 5 часов, неделя, месяц;
@@ -74,6 +77,8 @@ bash uninstall.sh
 ```sh
 opencode plugin add github:bl4we/opencode-usage-limits
 ```
+
+Для этого варианта на устройстве должен быть установлен Git. Если Git нет — используй самодостаточный `install-usage-limits.ps1` / `install-usage-limits.sh` из релиза.
 
 После установки перезапусти OpenCode (или выполни `opencode reload`) и войди в OpenCode Console на этом устройстве.
 
